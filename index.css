@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+
+
+
+body {background-color: rgb(255, 185, 168);}
+#Cajas {background-color: rgb(255, 209, 197) ; margin-top: 20px; border-radius: 15px;text-align: center; font-family: 'Silkscreen', cursive;}
+#Planes {background-color: rgb(255, 209, 197); margin-top: 20px; border-radius: 10px; width: 300px; height: 400px;text-align: center; font-family: 'Raleway', sans-serif;}
+#compra {background-color: lightslategrey; margin-top: 20px; border-radius: 10px; width: 1220px; height: 450px;text-align: center; font-family: 'Playfair Display', serif;}
+textarea {border-radius: 10px;}
+::placeholder {color: blue; font-family: 'Raleway', sans-serif;}
+fieldset {border-radius: 5px;}
+#Login_y_register {color: black; text-decoration: none; margin: 15px; font-family: 'Raleway', sans-serif; font-size: 20px;max-width:  max-content; }
+#login {background-color: lightgrey; border-radius: 15px; width: auto; height: 300px; text-align: center;}
+.login {background-color: lightgrey; border-radius: 3px; width: 70px; height: 25px; text-align: center;}

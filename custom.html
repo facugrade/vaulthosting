@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra personalisada</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <a href="index.html"><img src="./iconfinder-server2-4417099_116631.png" width="50px" height="50px"></a>
+
+
+    <div id="compra">
+        <form method="post" action="./index.php"> <!-- action="contacto.php" -->
+            <fieldset>
+                <legend>Datos de registro</legend>
+            <label >Nombre del servidor: </label><input name="nombre" type="text" maxlength="15" required><br>
+            <label>Ram <input name="ram" type="number" min="1" max="250" required></label><br>
+            <label>Disco <input name="disco" type="number" min="1" max="1250" required></label><br>
+            <label>Puertos <input name="Puertos" type="number" min="0" max="15" required><br>
+            <label>Cpu <input name="Puertos" type="number" min="500" max="9000" required><br>
+            <br>
+            
+            <label>Network:</label>
+            <label > <input type="radio" name="tipo" value="si" checked>si</label>
+            <label ><input type="radio" name="tipo" value="no">no</label>
+            <br><br>
+            <label>Ofertas adicionales:</label><br>
+            <label > Tebex gratis <input type="checkbox" name="oferta" value="tabex"></label><br>
+            <label > Dominio gratis <input type="checkbox" name="oferta" value="Dominio"></label><br>
+            <label > seguridad extra con cloud flare<input type="checkbox" name="oferta" value="seguridad"></label>
+            <br><br>
+            <label > Acepto los terminos y condiciones <input type="checkbox" name="oferta" value="terminos si" required></label>
+
+
+<br>
+            <label><input type="submit"></label>
+        <a href="./compra.html"><img src="./Comprar.png" ></a>
+        </form>
+    </div>
+</body>
+</html>

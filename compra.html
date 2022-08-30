@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/1852/PNG/512/iconfinder-server2-4417099_116631.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <a href="index.html"><img src="./iconfinder-server2-4417099_116631.png" width="50px" height="50px"></a>
+
+
+    <div id="compra">
+        <form method="post" action="./index.php"> <!-- action="contacto.php" -->
+            <fieldset>
+                <legend>Datos de registro</legend>
+            <label class="invalido">Nombre *</label><input name="nombre" type="text" maxlength="15" required><br>
+            <label>Apellido <input name="apellido" type="text" required></label><br>
+            <label>Contraseña </label><input name="clave" type="password" required><br>
+            <label>Email </label><input name="mail" type="email" required><br>
+            <br><br>
+            
+            <label>Medio de pago:</label>
+            <label > <input type="radio" name="pago" value="efectivo" checked>efectivo</label>
+            <label ><input type="radio" name="pago" value="devito">devito</label>
+            <br><br>
+    <textarea name="" cols="75" rows="5" placeholder="Ingrese un comentario adicional"></textarea>
+<br>
+
+    <label > Acepto los terminos y condiciones <input type="checkbox" name="oferta" value="terminos si" required></label>
+    <br><br><br>
+            <button>Enviar datos</button><input type="submit"><input type="reset">
+        </form>
+    </div>
+
+
+    
+</body>
+</html>
